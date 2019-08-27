@@ -1,0 +1,9 @@
+include:
+  - https://raw.githubusercontent.com/aparcar/bachata-ci/master/bachata-ci.yml
+  - https://raw.githubusercontent.com/aparcar/bachata-ci/master/pipeline-jobs.yml
+
+variables:
+  PROJECT_NAME: "bmx7"
+  PROJECT_FEED: "routing"
+  PROJECT_DEST: "/usr/sbin/bmx7"
+  BACHATA_CI_ENABLE_BUILD_DOCKER: 0
